@@ -32,7 +32,7 @@ public class LoginControl {
     public void logIn(){
         if (usernameFieldLog.getText().isBlank() || passwordField.getText().isBlank()){
            try{
-               Parent parent= FXMLLoader.load(getClass().getResource("/Warning.fxml"));
+               Parent parent= FXMLLoader.load(getClass().getResource("/_FXMLS/Warning.fxml"));
             Stage stage=new Stage();
             stage.setScene(new Scene(parent));
             stage.initStyle(StageStyle.UNDECORATED);
@@ -48,7 +48,7 @@ public class LoginControl {
         if (!(fnameField.getText().isBlank() || secNameField.getText().isBlank() || emailAddField.getText().isBlank() || contactField.getText()
         .isBlank())){
             try {
-                fxml = FXMLLoader.load(getClass().getResource("/Proceed.fxml"));
+                fxml = FXMLLoader.load(getClass().getResource("/_FXMLS/Proceed.fxml"));
                 Scene scene=fxml.getScene();
                 JMetro metro=new JMetro(Style.LIGHT);
                 metro.setScene(scene);
@@ -60,7 +60,7 @@ public class LoginControl {
         }else {
            //NullWarning.stop();
             try{
-                Parent parent= FXMLLoader.load(getClass().getResource("/Warning.fxml"));
+                Parent parent= FXMLLoader.load(getClass().getResource("/_FXMLS/Warning.fxml"));
                 Stage stage=new Stage();
                 stage.setScene(new Scene(parent));
                 stage.initStyle(StageStyle.UNDECORATED);

@@ -36,7 +36,7 @@
       <PasswordField fx:id="confirmPassField" layoutX="63.0" layoutY="314.0" prefHeight="42.0" prefWidth="325.0" style="-fx-background-color: transparent; -fx-border-color: black;" />
       <ImageView layoutX="196.0" layoutY="40.0">
          <image>
-            <Image url="@accounts/images/addinguser.png" />
+            <Image url="@../../java/accounts/images/addinguser.png" />
          </image>
       </ImageView>
       <JFXButton layoutX="129.0" layoutY="507.0" onAction="#complete" prefHeight="42.0" prefWidth="200.0" ripplerFill="#fffdfd" style="-fx-background-color: black;" text="Next" textFill="WHITE">

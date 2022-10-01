@@ -59,16 +59,16 @@ public class MainPane implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        Pane pane=new Loader().getPane("/Dashboard.fxml");
+        Pane pane=new Loader().getPane("/_FXMLS/Dashboard.fxml");
             bordePane.setCenter(pane);
 
-        Pane pane1=new Loader().getPane("/MenuPane.fxml");
+        Pane pane1=new Loader().getPane("/_FXMLS/MenuPane.fxml");
         bordePane.setLeft(pane1);
 
 
     }
     public void loadDash(){
-        Pane pane=new Loader().getPane("/Dashboard.fxml");
+        Pane pane=new Loader().getPane("/_FXMLS/Dashboard.fxml");
         bordePane.setCenter(pane);
     }
 

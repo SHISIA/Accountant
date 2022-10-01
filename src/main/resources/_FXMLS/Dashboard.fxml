@@ -114,7 +114,7 @@
                         </GridPane>
                         <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="795.0" layoutY="16.0">
                            <image>
-                              <Image url="@accounts/images/icons8_add_80px_1.png" />
+                              <Image url="@../../java/accounts/images/icons8_add_80px_1.png" />
                            </image>
                         </ImageView>
                         <Label alignment="CENTER" layoutX="756.0" layoutY="54.0" prefHeight="19.0" prefWidth="79.0" text="Add a Task" textFill="#5e0000">
@@ -124,7 +124,7 @@
                         </Label>
                         <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="795.0" layoutY="104.0">
                            <image>
-                              <Image url="@accounts/images/icons8_search_80px.png" />
+                              <Image url="@../../java/accounts/images/icons8_search_80px.png" />
                            </image>
                         </ImageView>
                         <Label alignment="CENTER" layoutX="756.0" layoutY="152.0" prefHeight="22.0" prefWidth="79.0" text="Search Task" textFill="#5e0000" wrapText="true">

@@ -17,7 +17,7 @@
 
 <BorderPane fx:id="bordePane" prefHeight="701.0" prefWidth="1351.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="accounts.FXML.MainPane">
    <top>
-      <Pane depthTest="ENABLE" onMouseEntered="#setHoverAll" prefHeight="63.0" prefWidth="1349.0" style="-fx-background-color: white;" stylesheets="@css/border.css" BorderPane.alignment="CENTER">
+      <Pane depthTest="ENABLE" onMouseEntered="#setHoverAll" prefHeight="63.0" prefWidth="1349.0" style="-fx-background-color: white;" stylesheets="@../css/border.css" BorderPane.alignment="CENTER">
          <children>
             <Rectangle fx:id="hoverOne" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="5.0" layoutX="159.0" layoutY="52.0" stroke="TRANSPARENT" strokeType="INSIDE" visible="false" width="174.0" />
             <Circle fill="#010e1a00" layoutX="1196.0" layoutY="21.0" radius="17.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.5" />
@@ -25,7 +25,7 @@
                <effect>
                   <ImageInput>
                      <source>
-                        <Image url="@accounts/images/icons8_logout_rounded_up_32px.png" />
+                        <Image url="@../../java/accounts/images/icons8_logout_rounded_up_32px.png" />
                      </source>
                   </ImageInput>
                </effect>
@@ -50,29 +50,29 @@
             <Rectangle fx:id="hoverTwo" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="5.0" layoutX="388.0" layoutY="52.0" stroke="TRANSPARENT" strokeType="INSIDE" visible="false" width="171.0" />
             <ImageView fitHeight="34.0" fitWidth="33.0" layoutX="160.0" layoutY="13.0">
                <image>
-                  <Image url="@accounts/images/icons8_severity_100px.png" />
+                  <Image url="@../../java/accounts/images/icons8_severity_100px.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="34.0" fitWidth="33.0" layoutX="399.0" layoutY="14.0">
                <image>
-                  <Image url="@accounts/images/icons8_pricing_100px.png" />
+                  <Image url="@../../java/accounts/images/icons8_pricing_100px.png" />
                </image>
             </ImageView>
             <Rectangle fx:id="hoverThree" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="5.0" layoutX="607.0" layoutY="53.0" stroke="TRANSPARENT" strokeType="INSIDE" visible="false" width="171.0" />
             <ImageView fitHeight="34.0" fitWidth="33.0" layoutX="618.0" layoutY="13.0">
                <image>
-                  <Image url="@accounts/images/icons8_invoice_100px_1.png" />
+                  <Image url="@../../java/accounts/images/icons8_invoice_100px_1.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="34.0" fitWidth="33.0" layoutX="821.0" layoutY="11.0">
                <image>
-                  <Image url="@accounts/images/icons8_account_100px.png" />
+                  <Image url="@../../java/accounts/images/icons8_account_100px.png" />
                </image>
             </ImageView>
             <Rectangle fx:id="hoverFinal" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="5.0" layoutX="811.0" layoutY="52.0" stroke="TRANSPARENT" strokeType="INSIDE" visible="false" width="171.0" />
             <ImageView fitHeight="31.0" fitWidth="31.0" layoutX="28.0" layoutY="16.0">
                <image>
-                  <Image url="@accounts/images/icons8_menu_100px_1.png" />
+                  <Image url="@../../java/accounts/images/icons8_menu_100px_1.png" />
                </image>
             </ImageView>
             <JFXButton alignment="BASELINE_CENTER" layoutX="811.0" layoutY="-4.0" onMouseEntered="#setHoverFinal" prefHeight="56.0" prefWidth="171.0" ripplerFill="#6de8e8" text="Accounts">
@@ -97,7 +97,7 @@
             </JFXButton>
             <ImageView fitHeight="35.0" fitWidth="33.0" layoutX="1293.0" layoutY="6.0">
                <image>
-                  <Image url="@accounts/images/viewdets.png" />
+                  <Image url="@../../java/accounts/images/viewdets.png" />
                </image>
             </ImageView>
          </children>

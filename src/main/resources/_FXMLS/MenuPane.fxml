@@ -13,27 +13,27 @@
    <children>
       <ImageView fitHeight="47.0" fitWidth="46.0" layoutX="14.0" layoutY="516.0">
          <image>
-            <Image url="@accounts/images/icons8_todo_list_100px.png" />
+            <Image url="@../../java/accounts/images/icons8_todo_list_100px.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="47.0" fitWidth="46.0" layoutX="14.0" layoutY="264.0">
          <image>
-            <Image url="@accounts/images/icons8_futures_100px.png" />
+            <Image url="@../../java/accounts/images/icons8_futures_100px.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="47.0" fitWidth="46.0" layoutX="14.0" layoutY="180.0">
          <image>
-            <Image url="@accounts/images/icons8_people_100px.png" />
+            <Image url="@../../java/accounts/images/icons8_people_100px.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="47.0" fitWidth="46.0" layoutX="14.0" layoutY="349.0">
          <image>
-            <Image url="@accounts/images/icons8_pie_chart_100px.png" />
+            <Image url="@../../java/accounts/images/icons8_pie_chart_100px.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="47.0" fitWidth="46.0" layoutX="14.0" layoutY="433.0">
          <image>
-            <Image url="@accounts/images/icons8_stack_of_coins_100px_2.png" />
+            <Image url="@../../java/accounts/images/icons8_stack_of_coins_100px_2.png" />
          </image>
       </ImageView>
       <JFXButton fx:id="btn" alignment="CENTER" defaultButton="true" layoutX="2.0" layoutY="167.0" onAction="#loadPeeps" prefHeight="83.0" prefWidth="222.0" text="People" textFill="WHITE">

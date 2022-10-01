@@ -22,7 +22,7 @@ public class SignupFinal {
     public void complete(ActionEvent event){
         if (nickName.getText().isBlank() || profilePic.getText().isBlank()){
             try{
-                Parent parent= FXMLLoader.load(getClass().getResource("/Warning.fxml"));
+                Parent parent= FXMLLoader.load(getClass().getResource("/_FXMLS/Warning.fxml"));
                 Stage stage=new Stage();
                 stage.setScene(new Scene(parent));
                 stage.initStyle(StageStyle.UNDECORATED);
@@ -33,7 +33,7 @@ public class SignupFinal {
             }
         }else {
           try {
-              fxml = FXMLLoader.load(getClass().getResource("/Final.fxml"));
+              fxml = FXMLLoader.load(getClass().getResource("/_FXMLS/Final.fxml"));
               ;
               anchorPane.getChildren().removeAll();
               anchorPane.getChildren().setAll(fxml);

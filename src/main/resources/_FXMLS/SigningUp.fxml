@@ -39,7 +39,7 @@
       </Label>
       <ImageView layoutX="196.0" layoutY="17.0">
          <image>
-            <Image url="@accounts/images/addinguser.png" />
+            <Image url="@../../java/accounts/images/addinguser.png" />
          </image>
       </ImageView>
       <JFXButton fx:id="proceedBn" layoutX="139.0" layoutY="517.0" onAction="#proceed" prefHeight="42.0" prefWidth="200.0" ripplerFill="#fffdfd" style="-fx-background-color: black;" text="Proceed" textFill="WHITE">

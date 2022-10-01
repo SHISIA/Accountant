@@ -25,7 +25,7 @@ public class Controller implements Initializable {
         transition.play();
         transition.setOnFinished((e)->{
             try {
-                fxml= FXMLLoader.load(getClass().getResource("/Login.fxml"));
+                fxml= FXMLLoader.load(getClass().getResource("/_FXMLS/Login.fxml"));
                 anchorPane.getChildren().removeAll();
                 anchorPane.getChildren().setAll(fxml);
             } catch (IOException ioException) {
@@ -42,7 +42,7 @@ public class Controller implements Initializable {
         transition.play();
         transition.setOnFinished((e)->{
             try {
-                fxml= FXMLLoader.load(getClass().getResource("/SigningUp.fxml"));
+                fxml= FXMLLoader.load(getClass().getResource("/_FXMLS/SigningUp.fxml"));
                 anchorPane.getChildren().removeAll();
                 anchorPane.getChildren().setAll(fxml);
             } catch (IOException ioException) {
@@ -57,7 +57,7 @@ public class Controller implements Initializable {
         transition.play();
         transition.setOnFinished((e)->{
             try {
-                fxml= FXMLLoader.load(getClass().getResource("/Login.fxml"));
+                fxml= FXMLLoader.load(getClass().getResource("/_FXMLS/Login.fxml"));
                 anchorPane.getChildren().removeAll();
                 anchorPane.getChildren().setAll(fxml);
             } catch (IOException ioException) {

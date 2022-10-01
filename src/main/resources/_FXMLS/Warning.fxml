@@ -21,12 +21,12 @@
       </JFXButton>
       <ImageView layoutX="150.0" layoutY="-3.0">
          <image>
-            <Image url="@accounts/images/icons8_error_100px_1.png" />
+            <Image url="@../../java/accounts/images/icons8_error_100px_1.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="49.0" fitWidth="55.0" layoutX="172.0" layoutY="28.0">
          <image>
-            <Image url="@accounts/images/icons8_exclamation_mark_100px.png" />
+            <Image url="@../../java/accounts/images/icons8_exclamation_mark_100px.png" />
          </image>
       </ImageView>
    </children>

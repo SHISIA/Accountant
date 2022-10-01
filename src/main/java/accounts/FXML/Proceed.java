@@ -27,7 +27,7 @@ public class Proceed {
     public void complete(ActionEvent event) {
         if (usernameField.getText().isBlank() ||passField.getText().isBlank()|| confirmPassField.getText().isBlank()|| privilege.getText().isBlank()){
             try{
-                Parent parent= FXMLLoader.load(getClass().getResource("/Warning.fxml"));
+                Parent parent= FXMLLoader.load(getClass().getResource("/_FXMLS/Warning.fxml"));
                 Stage stage=new Stage();
                 stage.setScene(new Scene(parent));
                 stage.initStyle(StageStyle.UNDECORATED);
@@ -39,7 +39,7 @@ public class Proceed {
 
         }else {
             try {
-                fxml = FXMLLoader.load(getClass().getResource("/SignupFinal.fxml"));
+                fxml = FXMLLoader.load(getClass().getResource("/_FXMLS/SignupFinal.fxml"));
                 anchorPane.getChildren().removeAll();
                 anchorPane.getChildren().setAll(fxml);
             } catch (IOException e) {

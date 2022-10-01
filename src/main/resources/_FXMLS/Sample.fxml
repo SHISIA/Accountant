@@ -8,21 +8,21 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="613.0" prefWidth="977.0" style="-fx-background-color: #04081a;" stylesheets="@css/logMain.css" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="accounts.FXML.Controller">
+<AnchorPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="613.0" prefWidth="977.0" style="-fx-background-color: #04081a;" stylesheets="@../css/logMain.css" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="accounts.FXML.Controller">
    <children>
       <ImageView layoutX="211.0" layoutY="94.0">
          <image>
-            <Image url="@css/new.png" />
+            <Image url="@../css/new.png" />
          </image>
       </ImageView>
       <ImageView layoutX="689.0" layoutY="111.0">
          <image>
-            <Image url="@css/log_in.png" />
+            <Image url="@../css/log_in.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="34.0" fitWidth="47.0" layoutX="908.0" layoutY="562.0">
          <image>
-            <Image url="@accounts/images/accLg.png" />
+            <Image url="@../../java/accounts/images/accLg.png" />
          </image>
       </ImageView>
       <Label layoutX="538.0" layoutY="217.0" prefHeight="117.0" prefWidth="401.0" text="Are you already Signed Up ? If so , kindly click the Sign In button and proceed to navigate the awesome features of aCCountant" textAlignment="CENTER" textFill="#ebeae7" wrapText="true">

@@ -39,7 +39,7 @@ public class MenuPane implements Initializable {
     }
     public void loadPeeps(){
         BorderPane bordePane=(BorderPane) btn.getScene().getRoot();
-        Pane pane=new Loader().getPane("/People.fxml");
+        Pane pane=new Loader().getPane("/_FXMLS/People.fxml");
         bordePane.setCenter(pane);
     }
 
