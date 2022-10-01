@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="184.0" prefWidth="412.0" style="-fx-background-color: black; -fx-border-color: white;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="accounts.FXML.Warning">
+   <children>
+      <Label alignment="CENTER" layoutX="36.0" layoutY="93.0" prefHeight="29.0" prefWidth="329.0" text="One or more value(s) is/are empty!!" textFill="#f80f0f">
+         <font>
+            <Font name="Britannic Bold" size="19.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="rectifyBtn" buttonType="RAISED" layoutX="145.0" layoutY="144.0" onAction="#close" prefHeight="29.0" prefWidth="120.0" ripplerFill="#00d3f8" style="-fx-background-color: transparent; -fx-background-radius: 46; -fx-border-color: white; -fx-border-radius: 46;" text="Rectify" textFill="WHITE">
+         <font>
+            <Font name="System Italic" size="14.0" />
+         </font>
+      </JFXButton>
+      <ImageView layoutX="150.0" layoutY="-3.0">
+         <image>
+            <Image url="@accounts/images/icons8_error_100px_1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="49.0" fitWidth="55.0" layoutX="172.0" layoutY="28.0">
+         <image>
+            <Image url="@accounts/images/icons8_exclamation_mark_100px.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

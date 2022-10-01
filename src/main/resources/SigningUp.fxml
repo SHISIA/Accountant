@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorPane" prefHeight="588.0" prefWidth="453.0" style="-fx-background-color: #04081a; -fx-border-color: white;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="accounts.FXML.LoginControl">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="580.0" layoutX="4.0" layoutY="4.0" stroke="BLACK" strokeType="INSIDE" width="444.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#04081a" height="70.0" layoutX="16.0" layoutY="-1.0" stroke="#00000003" strokeType="INSIDE" width="34.0" />
+      <TextField fx:id="fnameField" layoutX="65.0" layoutY="107.0" prefHeight="42.0" prefWidth="325.0" style="-fx-background-color: tranparent; -fx-border-color: black;" />
+      <TextField fx:id="secNameField" layoutX="65.0" layoutY="206.0" prefHeight="42.0" prefWidth="325.0" style="-fx-background-color: tranparent; -fx-border-color: black;" />
+      <Label alignment="CENTER" layoutX="84.0" layoutY="93.0" prefHeight="27.0" prefWidth="115.0" style="-fx-background-color: white;" text="First Name">
+         <font>
+            <Font name="Century" size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="88.0" layoutY="193.0" prefHeight="27.0" prefWidth="115.0" style="-fx-background-color: white;" text="Second Name">
+         <font>
+            <Font name="Century" size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="emailAddField" layoutX="63.0" layoutY="309.0" prefHeight="42.0" prefWidth="325.0" style="-fx-background-color: tranparent; -fx-border-color: black;" />
+      <Label alignment="CENTER" layoutX="86.0" layoutY="296.0" prefHeight="27.0" prefWidth="115.0" style="-fx-background-color: white;" text="Email Address">
+         <font>
+            <Font name="Century" size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="contactField" layoutX="63.0" layoutY="407.0" prefHeight="42.0" prefWidth="325.0" style="-fx-background-color: tranparent; -fx-border-color: black;" />
+      <Label alignment="CENTER" layoutX="86.0" layoutY="394.0" prefHeight="27.0" prefWidth="115.0" style="-fx-background-color: white;" text="Contact">
+         <font>
+            <Font name="Century" size="15.0" />
+         </font>
+      </Label>
+      <ImageView layoutX="196.0" layoutY="17.0">
+         <image>
+            <Image url="@accounts/images/addinguser.png" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="proceedBn" layoutX="139.0" layoutY="517.0" onAction="#proceed" prefHeight="42.0" prefWidth="200.0" ripplerFill="#fffdfd" style="-fx-background-color: black;" text="Proceed" textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

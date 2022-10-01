@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import eu.hansolo.medusa.Clock?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="681.0" prefWidth="226.0" style="-fx-background-color: #2f0002;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="accounts.FXML.MenuPane">
+   <children>
+      <ImageView fitHeight="47.0" fitWidth="46.0" layoutX="14.0" layoutY="516.0">
+         <image>
+            <Image url="@accounts/images/icons8_todo_list_100px.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="47.0" fitWidth="46.0" layoutX="14.0" layoutY="264.0">
+         <image>
+            <Image url="@accounts/images/icons8_futures_100px.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="47.0" fitWidth="46.0" layoutX="14.0" layoutY="180.0">
+         <image>
+            <Image url="@accounts/images/icons8_people_100px.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="47.0" fitWidth="46.0" layoutX="14.0" layoutY="349.0">
+         <image>
+            <Image url="@accounts/images/icons8_pie_chart_100px.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="47.0" fitWidth="46.0" layoutX="14.0" layoutY="433.0">
+         <image>
+            <Image url="@accounts/images/icons8_stack_of_coins_100px_2.png" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="btn" alignment="CENTER" defaultButton="true" layoutX="2.0" layoutY="167.0" onAction="#loadPeeps" prefHeight="83.0" prefWidth="222.0" text="People" textFill="WHITE">
+         <font>
+            <Font name="Centaur" size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton alignment="CENTER" layoutX="2.0" layoutY="503.0" prefHeight="83.0" prefWidth="222.0" text="      Plans &amp; Projects" textFill="WHITE">
+         <font>
+            <Font name="Centaur" size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton alignment="CENTER_RIGHT" layoutX="2.0" layoutY="251.0" prefHeight="83.0" prefWidth="222.0" text="Product Statistics" textFill="WHITE">
+         <font>
+            <Font name="Centaur" size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton alignment="CENTER" contentDisplay="CENTER" layoutX="2.0" layoutY="336.0" prefHeight="83.0" prefWidth="222.0" text="Reports" textFill="WHITE">
+         <font>
+            <Font name="Centaur" size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton alignment="CENTER" layoutX="2.0" layoutY="420.0" prefHeight="83.0" prefWidth="222.0" text="Money" textFill="WHITE">
+         <font>
+            <Font name="Centaur" size="20.0" />
+         </font>
+      </JFXButton>
+      <Clock fx:id="clock" alarmsEnabled="true" alarmsVisible="true" areasVisible="true" autoNightMode="true" borderPaint="#ffffff00" dateVisible="true" dayVisible="true" discreteHours="true" foregroundPaint="#e0d5d508" highlightSections="true" layoutX="52.0" layoutY="31.0" lcdCrystalEnabled="true" lcdDesign="ORANGE" lcdFont="ELEKTRA" nightMode="true" prefHeight="117.0" prefWidth="122.0" running="true" secondsVisible="true" sectionsVisible="true" shadowsEnabled="true" skinType="SLIM" text="Hi" textVisible="true" title="">
+         <dateColor>
+            <Color red="1.0" green="0.9907407164573669" blue="0.9907407164573669" />
+         </dateColor>
+         <hourColor>
+            <Color green="0.8500000238418579" blue="1.0" />
+         </hourColor>
+         <hourTickMarkColor>
+            <Color green="0.8833333253860474" blue="1.0" />
+         </hourTickMarkColor>
+         <knobColor>
+            <Color red="0.5299999713897705" green="0.23319999873638153" blue="0.23319999873638153" opacity="0.017391303554177284" />
+         </knobColor>
+         <minuteColor>
+            <Color red="0.6052631735801697" green="0.08966861665248871" blue="0.27012670040130615" />
+         </minuteColor>
+         <secondColor>
+            <Color red="1.0" green="1.0" blue="1.0" />
+         </secondColor>
+         <textColor>
+            <Color red="0.9868420958518982" green="0.9868420958518982" blue="0.9868420958518982" />
+         </textColor>
+      </Clock>
+      <Label layoutX="8.0" layoutY="619.0" prefHeight="22.0" prefWidth="169.0" text="All Rights Reserved" textFill="#439a87" />
+      <Label layoutX="10.0" layoutY="633.0" prefHeight="31.0" prefWidth="169.0" text="CSheer Jim" textFill="#ff9900">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

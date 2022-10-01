@@ -1,0 +1,9 @@
+.paneOne{
+    /**-fx-background-color:linear-gradient(to right,#ff1464,purple);**/
+    -fx-background-image:url('../css/vintage.jpg');
+    -fx-background-size:cover;
+    }
+.text-field{
+    -fx-prompt-text-fill:#2f0002;
+    -fx-focus-color:black;
+}

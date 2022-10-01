@@ -1,0 +1,8 @@
+.pane{
+    -fx-background-image:url('../images/lawrencium.jpg');
+    -fx-background-size:cover;
+    }
+.label{
+   -fx-text-stroke-color:#02020a;
+   -fx-text-stroke-width:2.00px;
+}

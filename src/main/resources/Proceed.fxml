@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXRadioButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorPane" prefHeight="588.0" prefWidth="453.0" style="-fx-background-color: #04081a; -fx-border-color: black; -fx-border-color: white;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="accounts.FXML.Proceed">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="577.0" layoutX="5.0" layoutY="6.0" stroke="BLACK" strokeType="INSIDE" width="442.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#04081a" height="70.0" layoutX="16.0" layoutY="-1.0" stroke="#00000003" strokeType="INSIDE" width="34.0" />
+      <TextField fx:id="usernameField" layoutX="65.0" layoutY="130.0" prefHeight="42.0" prefWidth="325.0" style="-fx-background-color: tranparent; -fx-border-color: black;" />
+      <TextField fx:id="passField" layoutX="65.0" layoutY="221.0" prefHeight="42.0" prefWidth="325.0" style="-fx-background-color: tranparent; -fx-border-color: black;" />
+      <Label alignment="CENTER" layoutX="84.0" layoutY="116.0" prefHeight="27.0" prefWidth="115.0" style="-fx-background-color: white;" text="Username">
+         <font>
+            <Font name="Century" size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="88.0" layoutY="208.0" prefHeight="27.0" prefWidth="115.0" style="-fx-background-color: white;" text="Password">
+         <font>
+            <Font name="Century" size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="privilege" layoutX="63.0" layoutY="424.0" prefHeight="42.0" prefWidth="325.0" style="-fx-background-color: tranparent; -fx-border-color: black;" />
+      <Label alignment="CENTER" layoutX="86.0" layoutY="411.0" prefHeight="27.0" prefWidth="115.0" style="-fx-background-color: white;" text="Privilege">
+         <font>
+            <Font name="Century" size="15.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="confirmPassField" layoutX="63.0" layoutY="314.0" prefHeight="42.0" prefWidth="325.0" style="-fx-background-color: transparent; -fx-border-color: black;" />
+      <ImageView layoutX="196.0" layoutY="40.0">
+         <image>
+            <Image url="@accounts/images/addinguser.png" />
+         </image>
+      </ImageView>
+      <JFXButton layoutX="129.0" layoutY="507.0" onAction="#complete" prefHeight="42.0" prefWidth="200.0" ripplerFill="#fffdfd" style="-fx-background-color: black;" text="Next" textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </JFXButton>
+      <JFXRadioButton fx:id="showPassCheck" layoutX="63.0" layoutY="369.0" text="Show Password" />
+      <Label alignment="CENTER" layoutX="86.0" layoutY="300.0" prefHeight="27.0" prefWidth="135.0" style="-fx-background-color: white;" text="Confirm Password">
+         <font>
+            <Font name="Century" size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

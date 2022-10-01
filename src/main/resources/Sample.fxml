@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="613.0" prefWidth="977.0" style="-fx-background-color: #04081a;" stylesheets="@css/logMain.css" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="accounts.FXML.Controller">
+   <children>
+      <ImageView layoutX="211.0" layoutY="94.0">
+         <image>
+            <Image url="@css/new.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="689.0" layoutY="111.0">
+         <image>
+            <Image url="@css/log_in.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="34.0" fitWidth="47.0" layoutX="908.0" layoutY="562.0">
+         <image>
+            <Image url="@accounts/images/accLg.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="538.0" layoutY="217.0" prefHeight="117.0" prefWidth="401.0" text="Are you already Signed Up ? If so , kindly click the Sign In button and proceed to navigate the awesome features of aCCountant" textAlignment="CENTER" textFill="#ebeae7" wrapText="true">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="60.0" layoutY="211.0" prefHeight="146.0" prefWidth="401.0" text="Hello, Kindly signup to gain access to the features of Accountant , experiment with them and find out what you've been missing all along. Easy software interface with elegant data processing abilities." textAlignment="CENTER" textFill="#ebeae7" wrapText="true">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <JFXButton layoutX="151.0" layoutY="378.0" onAction="#signUp" prefHeight="46.0" prefWidth="220.0" style="-fx-background-color: transparent; -fx-background-radius: 22; -fx-border-color: white; -fx-border-radius: 22;" text="Sign Up" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="618.0" layoutY="378.0" onAction="#signIn" prefHeight="46.0" prefWidth="220.0" style="-fx-background-color: transparent; -fx-background-radius: 22; -fx-border-color: white; -fx-border-radius: 22;" text="Sign In" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </JFXButton>
+      <AnchorPane fx:id="anchorPane" layoutX="14.0" layoutY="13.0" prefHeight="588.0" prefWidth="453.0" style="-fx-background-color: WHITE;">
+         <effect>
+            <DropShadow />
+         </effect>
+      </AnchorPane>
+   </children>
+</AnchorPane>

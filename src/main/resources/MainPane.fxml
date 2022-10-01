@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXToggleButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.ImageInput?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<BorderPane fx:id="bordePane" prefHeight="701.0" prefWidth="1351.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="accounts.FXML.MainPane">
+   <top>
+      <Pane depthTest="ENABLE" onMouseEntered="#setHoverAll" prefHeight="63.0" prefWidth="1349.0" style="-fx-background-color: white;" stylesheets="@css/border.css" BorderPane.alignment="CENTER">
+         <children>
+            <Rectangle fx:id="hoverOne" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="5.0" layoutX="159.0" layoutY="52.0" stroke="TRANSPARENT" strokeType="INSIDE" visible="false" width="174.0" />
+            <Circle fill="#010e1a00" layoutX="1196.0" layoutY="21.0" radius="17.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.5" />
+            <Button layoutX="1179.0" layoutY="6.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="34.0" rotate="90.0" style="-fx-background-radius: 100;" text="Button">
+               <effect>
+                  <ImageInput>
+                     <source>
+                        <Image url="@accounts/images/icons8_logout_rounded_up_32px.png" />
+                     </source>
+                  </ImageInput>
+               </effect>
+            </Button>
+            <JFXToggleButton layoutX="981.0" layoutY="1.0" prefHeight="58.0" prefWidth="152.0" size="9.0" text="Light Mode " unToggleLineColor="#796464">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </JFXToggleButton>
+            <Label layoutX="1176.0" layoutY="38.0" text="Log Out" />
+            <Label alignment="CENTER" layoutX="1294.0" layoutY="38.0" prefHeight="17.0" prefWidth="35.0" text="Info" />
+            <Label fx:id="menuTwo" alignment="BASELINE_RIGHT" layoutX="2.0" layoutY="1.0" prefHeight="62.0" prefWidth="121.0" text="Menu " visible="false">
+               <font>
+                  <Font name="Calibri Light" size="19.0" />
+               </font>
+            </Label>
+            <Label fx:id="menuOne" alignment="BASELINE_RIGHT" layoutX="2.0" prefHeight="62.0" prefWidth="121.0" text="Menu ">
+               <font>
+                  <Font name="Calibri Light" size="19.0" />
+               </font>
+            </Label>
+            <Rectangle fx:id="hoverTwo" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="5.0" layoutX="388.0" layoutY="52.0" stroke="TRANSPARENT" strokeType="INSIDE" visible="false" width="171.0" />
+            <ImageView fitHeight="34.0" fitWidth="33.0" layoutX="160.0" layoutY="13.0">
+               <image>
+                  <Image url="@accounts/images/icons8_severity_100px.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="34.0" fitWidth="33.0" layoutX="399.0" layoutY="14.0">
+               <image>
+                  <Image url="@accounts/images/icons8_pricing_100px.png" />
+               </image>
+            </ImageView>
+            <Rectangle fx:id="hoverThree" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="5.0" layoutX="607.0" layoutY="53.0" stroke="TRANSPARENT" strokeType="INSIDE" visible="false" width="171.0" />
+            <ImageView fitHeight="34.0" fitWidth="33.0" layoutX="618.0" layoutY="13.0">
+               <image>
+                  <Image url="@accounts/images/icons8_invoice_100px_1.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="34.0" fitWidth="33.0" layoutX="821.0" layoutY="11.0">
+               <image>
+                  <Image url="@accounts/images/icons8_account_100px.png" />
+               </image>
+            </ImageView>
+            <Rectangle fx:id="hoverFinal" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="5.0" layoutX="811.0" layoutY="52.0" stroke="TRANSPARENT" strokeType="INSIDE" visible="false" width="171.0" />
+            <ImageView fitHeight="31.0" fitWidth="31.0" layoutX="28.0" layoutY="16.0">
+               <image>
+                  <Image url="@accounts/images/icons8_menu_100px_1.png" />
+               </image>
+            </ImageView>
+            <JFXButton alignment="BASELINE_CENTER" layoutX="811.0" layoutY="-4.0" onMouseEntered="#setHoverFinal" prefHeight="56.0" prefWidth="171.0" ripplerFill="#6de8e8" text="Accounts">
+               <font>
+                  <Font name="Calibri Light" size="19.0" />
+               </font>
+            </JFXButton>
+            <JFXButton alignment="BASELINE_CENTER" layoutX="607.0" layoutY="-5.0" onMouseEntered="#setHoverThree" prefHeight="58.0" prefWidth="172.0" ripplerFill="#6de8e8" text="Invoicing">
+               <font>
+                  <Font name="Calibri Light" size="19.0" />
+               </font>
+            </JFXButton>
+            <JFXButton alignment="BASELINE_CENTER" layoutX="387.0" layoutY="1.0" onMouseEntered="#setHoverTwo" prefHeight="51.0" prefWidth="173.0" ripplerFill="#6de8e8" text="Products">
+               <font>
+                  <Font name="Calibri Light" size="19.0" />
+               </font>
+            </JFXButton>
+            <JFXButton alignment="BASELINE_CENTER" layoutX="155.0" onAction="#loadDash" onMouseEntered="#setHoverOne" prefHeight="52.0" prefWidth="178.0" ripplerFill="#6de8e8" text="Dashboard">
+               <font>
+                  <Font name="Calibri Light" size="19.0" />
+               </font>
+            </JFXButton>
+            <ImageView fitHeight="35.0" fitWidth="33.0" layoutX="1293.0" layoutY="6.0">
+               <image>
+                  <Image url="@accounts/images/viewdets.png" />
+               </image>
+            </ImageView>
+         </children>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+      </Pane>
+   </top>
+</BorderPane>
